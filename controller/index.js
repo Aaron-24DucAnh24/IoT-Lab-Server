@@ -2,9 +2,9 @@
 const MQTTController = require('./MQTTController')
 const mqtt = require('mqtt')
 const username = 'aaron_24'
-const password = 'aio_fBdw81C4Js6BuNCFcs0QPB8qseeR'
+const password = ''
 const mqttServer = 'mqtt://io.adafruit.com'
-const clientId = 'nobodyhihihihihi'
+const clientId = 'aaron_25'
 const topics = [
     'aaron_24/feeds/sensor1', 
     'aaron_24/feeds/sensor2', 
