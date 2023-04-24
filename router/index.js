@@ -9,7 +9,6 @@ function router(app, io) {
     MQTTController.setIo(io)
 
     app.get('/auto', MQTTController.setAutoMode)
-    app.post('/login', )
     app.get('/pumpOn',socketController.pumpOn)
     app.get('/pumpOff',socketController.pumpOff)
     app.get('/fanOn',socketController.fanOn)
