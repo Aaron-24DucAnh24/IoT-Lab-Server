@@ -7,15 +7,21 @@
 
 ## To use:
 1. Make a directory ./ignore_file/index.js add authentication information
-    ```javascript
+```javascript
     password = '___'
     username = '___'
     clientId = '___'
     module.exports = {password, username, clientId}
-    ```
+```
 
-2. Run the server: npm start
+2. Run the server: 
+```zsh
+    npm start
+```
 
-3. Use ***NGROK*** to create public IP for the server: ngrok http 3000
+3. Use ***NGROK*** to create public IP for the server:
+```bash
+    ngrok http 3000
+```
 
 4. Copy the IP and add it to mobile app.
