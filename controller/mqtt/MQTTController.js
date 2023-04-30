@@ -84,7 +84,7 @@ class MQTTController {
 
     scheduleConnection() {
         connection_count += 1
-        if(connection_count == 15) {
+        if(connection_count == 18) {
             connection_count = 0
             if(connectionText != 'No connection to gateway')
                 client.publish('aaron_24/feeds/connection', 'No connection to gateway')
